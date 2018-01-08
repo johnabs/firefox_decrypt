@@ -538,8 +538,7 @@ def obtain_credentials(profile):
     return credentials
 
 #I changed the export parameters on lines 554, 557,
-#and 559  to allow for use
-with qute-pass.
+#and 559  to allow for use with qute-pass.with qute-pass.
 def export_pass(to_export, prefix):
     """Export given passwords to password store
 
