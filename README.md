@@ -1,3 +1,5 @@
+# NOTE: This script is nearly identical to that of the original but with a different export scheme compatible with Qutebrowser's qute-pass. If you don't need it formatted this way, I would suggest trying the original first. The commands listed below should still work as intended.
+
 #### About
 
 Firefox Decrypt is a tool to extract passwords from Firefox/Thunderbird
