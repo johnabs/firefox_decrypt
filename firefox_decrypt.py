@@ -537,7 +537,9 @@ def obtain_credentials(profile):
 
     return credentials
 
-
+#I changed the export parameters on lines 554, 557,
+#and 559  to allow for use
+with qute-pass.
 def export_pass(to_export, prefix):
     """Export given passwords to password store
 
@@ -550,14 +552,13 @@ def export_pass(to_export, prefix):
             # When more than one account exist for the same address, add
             # the login to the password identifier
             if len(to_export[address]) > 1:
-                passname = u"{0}/{1}/{2}".format(prefix, address, user)
+                passname = u"{0}/{1}".format(address, user)
 
             else:
-                passname = u"{0}/{1}".format(prefix, address)
-
+                passname = u"{0}/{1}".format(address, user)
             LOG.debug("Exporting credentials for '%s'", passname)
 
-            data = u"{0}\n{1}\n".format(passw, user)
+            data = u"{0}\n".format(passw)
 
             LOG.debug("Inserting pass '%s' '%s'", passname, data)
 
